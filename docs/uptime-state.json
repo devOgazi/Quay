@@ -1,13 +1,13 @@
 {
   "targets": {
     "api": {
-      "consecutiveFailures": 2,
-      "lastStatus": "down",
-      "lastCheckedAt": "2026-08-13T23:26:21.330Z",
+      "consecutiveFailures": 0,
+      "lastStatus": "up",
+      "lastCheckedAt": "2026-08-14T00:08:31.431Z",
       "today": {
-        "date": "2026-08-13",
-        "up": 12,
-        "down": 8
+        "date": "2026-08-14",
+        "up": 1,
+        "down": 0
       },
       "history": [
         {
@@ -89,17 +89,22 @@
           "date": "2026-08-12",
           "up": 5,
           "down": 15
+        },
+        {
+          "date": "2026-08-13",
+          "up": 12,
+          "down": 8
         }
       ],
-      "lastError": "This operation was aborted"
+      "lastError": null
     },
     "web": {
       "consecutiveFailures": 0,
       "lastStatus": "up",
-      "lastCheckedAt": "2026-08-13T23:26:21.461Z",
+      "lastCheckedAt": "2026-08-14T00:08:31.673Z",
       "today": {
-        "date": "2026-08-13",
-        "up": 20,
+        "date": "2026-08-14",
+        "up": 1,
         "down": 0
       },
       "history": [
@@ -182,18 +187,23 @@
           "date": "2026-08-12",
           "up": 20,
           "down": 0
+        },
+        {
+          "date": "2026-08-13",
+          "up": 20,
+          "down": 0
         }
       ],
       "lastError": null
     },
     "synthetic": {
-      "consecutiveFailures": 250,
+      "consecutiveFailures": 251,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-08-13T23:26:36.462Z",
+      "lastCheckedAt": "2026-08-14T00:08:31.787Z",
       "today": {
-        "date": "2026-08-13",
+        "date": "2026-08-14",
         "up": 0,
-        "down": 20
+        "down": 1
       },
       "history": [
         {
@@ -275,9 +285,14 @@
           "date": "2026-08-12",
           "up": 0,
           "down": 20
+        },
+        {
+          "date": "2026-08-13",
+          "up": 0,
+          "down": 20
         }
       ],
-      "lastError": "This operation was aborted"
+      "lastError": "POST https://quay-api.onrender.com/links -> HTTP 401 (expected 201)"
     }
   }
 }
